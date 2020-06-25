@@ -25,7 +25,7 @@ body {
     --color-link-hover: #fff;
     --color-info: #000;
     color: var(--color-text);
-    background-color: var(--color-bg);
+    background-color: #000000;
     font-family: 'IBM Plex Mono', monospace;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -52,7 +52,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: var(--color-bg);
+    background: #000000;
 }
 
 .js .loading::after {
@@ -67,7 +67,7 @@ body {
     pointer-events: none;
     border-radius: 50%;
     opacity: 0.4;
-    background: var(--color-link);
+    background: #000000;
     animation: loaderAnim 0.7s linear infinite alternate forwards;
 }
 
@@ -91,7 +91,7 @@ a:focus {
 }
 
 .message {
-    background: var(--color-text);
+    background: #000000;
     color: var(--color-bg);
     padding: 1rem;
     text-align: center;
