@@ -20,10 +20,10 @@ body #cdawrap {
 
 body {
     --color-text: #9c814f;
-    --color-bg: #111111;
+    --color-bg: #000;
     --color-link: #0a8dbb;
     --color-link-hover: #fff;
-    --color-info: #5a5757;
+    --color-info: #000;
     color: var(--color-text);
     background-color: var(--color-bg);
     font-family: 'IBM Plex Mono', monospace;
@@ -34,9 +34,9 @@ body {
 
 .demo-2 {
     --color-text: #fff;
-    --color-bg: #000000;
+    --color-bg: #000;
     --color-link: #78e7f6;
-    --color-info: #1e2ba8;
+    --color-info: #000;
 }
 
 .hidden {
