@@ -4140,7 +4140,7 @@
                 e = new THREE.BufferGeometry,
                 n = new THREE.ShaderMaterial({ uniforms: w, vertexShader: r, fragmentShader: i, transparent: !0, depthWrite: !1, blending: THREE.AdditiveBlending }),
                 o = [],
-                s = []; let c = ["#ff4b78", "#00ff00", "#ff0000", "#000000"]; for (let e = 0, n = t.height; e < n; e += 3)
+                s = []; let c = ["#ff4b78", "#16e36d", "#162cf8", "#2016e3"]; for (let e = 0, n = t.height; e < n; e += 3)
                 for (let n = 0, r = t.width; n < r; n += 3) { let i = 4 * (n + e * r);
                     g.push(i); let a = (t.data[i] + t.data[i + 1] + t.data[i + 2]) / 3,
                         u = a < 300 ? a : 1e4;
