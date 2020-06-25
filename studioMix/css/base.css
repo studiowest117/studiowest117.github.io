@@ -19,9 +19,9 @@ body #cdawrap {
 }
 
 body {
-    --color-text: #9c814f;
+    --color-text: #000;
     --color-bg: #000;
-    --color-link: #0a8dbb;
+    --color-link: #000;
     --color-link-hover: #fff;
     --color-info: #000;
     color: var(--color-text);
@@ -35,7 +35,7 @@ body {
 .demo-2 {
     --color-text: #fff;
     --color-bg: #000;
-    --color-link: #78e7f6;
+    --color-link: #000;
     --color-info: #000;
 }
 
